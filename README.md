@@ -11,7 +11,8 @@ This repository provides the data construction pipeline for the **REVERIE+** dat
 
 > **REVERIE+: Generalized Reflective Instruction Tuning for Hallucination Mitigation in Advanced VLMs**
 > Mingyang Bi*, Jinrui Zhang*, Xiangchen Wang, Xue Jiang, Yuhang Lu, Peng Wang, Feng Zheng
-
+> *Preprint, 2025 (under review)*
+> \* Equal contribution
 
 REVERIE+ extends the [REVERIE](https://github.com/zjr2000/REVERIE) dataset (ECCV 2024) by building on the [R1-Onevision](https://huggingface.co/datasets/Fancy-MLLM/R1-Onevision) data foundation and substantially expanding domain diversity, task complexity, and annotation depth through a pipeline that adds hard negative answers and high-fidelity negative rationale annotations.
 
@@ -145,7 +146,7 @@ REVERIE+ is built on top of [R1-Onevision](https://huggingface.co/datasets/Fancy
 | **Screen2Words** | Generating concise screen captions for mobile UI screenshots | [Wang et al., UIST 2021](https://arxiv.org/abs/2108.03353) · [HF](https://huggingface.co/datasets/HuggingFaceM4/the_cauldron) |
 | **VisText** | Rich captioning and QA for data visualisations (charts, plots) combining visual and semantic content | [Tang et al., ACL 2023](https://arxiv.org/abs/2307.05356) · [HF](https://huggingface.co/datasets/HuggingFaceM4/the_cauldron) |
 
-
+> **Note on InterGPS / Geometry3K**: the R1-Onevision repository uses the folder name `intergps` for the Geometry3K subset, consistent with the InterGPS solver paper that introduced this split.
 
 ---
 
@@ -229,22 +230,3 @@ Full prompt templates for both annotation stages are documented in [`prompts.md`
 
 ---
 
-## Citation
-
-If you use REVERIE+ or this pipeline in your research, please cite:
-
-```bibtex
-@article{bi2024reverie+,
-  title   = {REVERIE+: Generalized Reflective Instruction Tuning for Hallucination Mitigation in Advanced VLMs},
-  author  = {Bi, Mingyang and Zhang, Jinrui and Wang, Xiangchen and Jiang, Xue and Lu, Yuhang and Wang, Peng and Zheng, Feng},
-  journal = {International Journal of Computer Vision},
-  year    = {2024}
-}
-
-@inproceedings{zhang2024reflective,
-  title     = {Reflective Instruction Tuning: Mitigating Hallucinations in Large Vision-Language Models},
-  author    = {Zhang, Jinrui and Wang, Teng and Zhang, Haigang and Lu, Ping and Zheng, Feng},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  year      = {2024}
-}
-```
