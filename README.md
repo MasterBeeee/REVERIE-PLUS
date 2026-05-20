@@ -1,7 +1,6 @@
 # REVERIE+ Data Construction Pipeline
 
 <p align="center">
-  <a href="https://arxiv.org/abs/YOUR_ARXIV_ID"><img src="https://img.shields.io/badge/Paper-arXiv-red" alt="Paper"></a>
   <a href="https://huggingface.co/datasets/YOUR_HF_DATASET"><img src="https://img.shields.io/badge/Dataset-HuggingFace-yellow" alt="Dataset"></a>
   <a href="https://github.com/MasterBeeee/REVERIE-PLUS"><img src="https://img.shields.io/badge/GitHub-REVERIE--PLUS-blue" alt="GitHub"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="License"></a>
